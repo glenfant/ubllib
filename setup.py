@@ -9,7 +9,7 @@ UBL (Universal Busines Language) version 2.1 objects parsing and marshalling.
 # FIXME: Please read http://pythonhosted.org/setuptools/setuptools.html to
 #        customize in depth your setup script
 
-from setuptools import setup
+from setuptools import setup, find_packages
 import pathlib
 import sys
 
@@ -40,14 +40,14 @@ setup(name='ubllib',
       author_email='gilles.lenfant@gmail.com',
       url='http://pypi.python.org/pypi/ubllib',
       license='MIT license',
-      packages='ubllib',
+      packages=find_packages(where='src'),
       package_dir={'': 'src'},
       include_package_data=True,
       zip_safe=False,
       install_requires=[
           # 3rd party
-          'setuptools'
-          # Others
+          'setuptools',
+          'lxml'
       ],
       entry_points={},
       tests_require=dev_require,

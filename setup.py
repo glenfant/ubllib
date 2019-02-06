@@ -9,11 +9,13 @@ UBL (Universal Busines Language) version 2.1 objects parsing and marshalling.
 # FIXME: Please read http://pythonhosted.org/setuptools/setuptools.html to
 #        customize in depth your setup script
 
-from setuptools import setup, find_packages
 import pathlib
 import sys
 
-version = '1.0.0'
+from setuptools import setup, find_packages
+from setuptools.command.test import test as TestCommand
+
+VERSION = '1.0.0'
 
 this_directory = pathlib.Path(__file__).absolute().parent
 
@@ -26,16 +28,37 @@ long_description = '\n\n'.join(
 
 dev_require = ['Sphinx', 'pytest']
 
+
+class PyTest(TestCommand):
+    user_options = [('pytest-args=', 'a', "Arguments to pass to pytest")]
+
+    def initialize_options(self):
+        TestCommand.initialize_options(self)
+        self.pytest_args = ''
+
+    def run_tests(self):
+        import shlex
+        # import here, cause outside the eggs aren't loaded
+        import pytest
+        errno = pytest.main(shlex.split(self.pytest_args))
+        sys.exit(errno)
+
+
 setup(name='ubllib',
-      version=version,
+      version=VERSION,
       description="UBL (Universal Busines Language) version 2.1 objects parsing and marshalling.",
       long_description=long_description,
       # FIXME: Add more classifiers from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
+          "Topic :: Text Processing :: Markup :: XML",
+          "Topic :: Office/Business",
           "Programming Language :: Python",
-          "License :: OSI Approved :: MIT license"
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.6"
+          "Programming Language :: Python :: 3.7",
+          "License :: OSI Approved :: MIT License"
       ],
-      keywords='UBL Business',  # FIXME: Add whatefer fits
+      keywords='UBL Business',
       author='Gilles Lenfant',
       author_email='gilles.lenfant@gmail.com',
       url='http://pypi.python.org/pypi/ubllib',
@@ -54,4 +77,8 @@ setup(name='ubllib',
       test_suite='tests.all_tests',
       extras_require={
           'dev': dev_require
-      })
+      },
+      cmdclass={
+          'test': PyTest
+      }
+      )

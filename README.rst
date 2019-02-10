@@ -2,7 +2,7 @@
 ubllib
 ======
 
-UBL (Universal Busines Language) version 2.1 objects parsing and marshalling.
+UBL (Universal Business Language) version 2.1 objects parsing and marshalling.
 
 UBL is an industry standard XML interchange format for business documents (invoices, manifests, ...) specified by the
 ISO/IEC 19845:2015 standard.
@@ -54,8 +54,6 @@ This software is protected by the terms of MIT license.
 
 Links
 =====
-
-FIXME: Provide real links
 
 Project home page
 

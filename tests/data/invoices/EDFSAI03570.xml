@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 UBL-Invoice-2.0.xsd">
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID schemeName="Stylesheet" schemeAgencyName="EDF" schemeID="EDF.03.03">EDF-FLX-V19.81</cbc:CustomizationID>
+  <cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-invoice-notification-draft</cbc:ProfileID>
+  <cbc:ID>10082372910</cbc:ID>
+  <cbc:CopyIndicator>true</cbc:CopyIndicator>
+  <cbc:UUID>418e13f3-3d12-4844-ae9b-cc9afd958371</cbc:UUID>
+  <cbc:IssueDate>2018-09-07</cbc:IssueDate>
+  <cbc:InvoiceTypeCode name="Facture" listName="FFA716-MDL_MONOH_19-0" listAgencyName="ELEC" listID="FEF">380</cbc:InvoiceTypeCode>
+  <cbc:Note>Origine 2016 de l'électricité vendue par EDF : 89,13 % nucléaire, 5,53 % renouvelables (dont 4,51 % hydraulique), 1,44 % charbon, 2,58 % gaz, 1,32 % fioul. Indicateurs d'impact environnemental sur www.edf.com</cbc:Note>
+  <cbc:Note>Bilan annuel de vos consommations facturées en 2017: Montant total facturé : 535,26 € TTC, dont montant abonnement Electricité : 92,27 € HT, dont montant consommation Electricité : 241,92 € HT</cbc:Note>
+  <cbc:Note>Par décision des Pouvoirs Publics, les tarifs réglementés de vente d'électricité évoluent au 01/08/2018. Pour en savoir plus, rendez-vous sur www.edf.fr/entreprises ou www.edf.fr/collectivites</cbc:Note>
+  <cbc:Note>Les CGV du Tarif Bleu pour les clients non résidentiels évoluent au 1er juillet 2018. Pour les consulter, rendez-vous sur www.edfcollectivites.fr rubrique Contrat et facture &gt; Conditions Générales de Vente &gt; Tarifs réglementés &gt; Tarif Bleu.</cbc:Note>
+  <cbc:Note>Vous souhaitez faire une réclamation écrite ? Vous pouvez vous adresser à EDF, qui met à disposition un parcours en trois étapes, pour vous assurer une réponse dans les meilleurs délais. Etape 1 : vous adressez votre réclamation au Service Clients, dont les coordonnées se trouvent en haut à gauche de votre facture dans la rubrique contact. Etape 2 : la réponse apportée par le Service Clients ne vous satisfait pas, vous pouvez alors envoyer votre réclamation à l'attention du Directeur Commercial Régional dont l'adresse figure en haut à gauche de votre facture. Etape 3 : vous restez en désaccord avec la réponse du Directeur Commercial Régional, vous pouvez dans ce cas solliciter le Médiateur EDF par internet sur https://mediateur.edf.fr ou par écrit au Médiateur EDF - TSA 50026 - 75804 PARIS CEDEX 8. Indépendamment de ce parcours en 3 étapes, si dans un délai de deux mois, votre réclamation écrite auprès d'EDF n'a pas permis de régler le différend, vous pouvez saisir le médiateur national de l'énergie dans le respect de son champ de compétence déterminé par les articles L122-1 et suivants du Code de l'énergie sur www.energie-mediateur.fr ou par écrit au Médiateur national de l'énergie - Libre réponse n°59252 - 75443 PARIS CEDEX 9.</cbc:Note>
+  <cbc:Note>Document à conserver 10 ans</cbc:Note>
+  <cbc:Note>Retrouvez l'ensemble de nos offres, des tarifs et autres informations sur la gestion de votre énergie sur www.edfcollectivites.fr</cbc:Note>
+  <cbc:Note>Délai de préavis de résiliation du contrat : aucun pour le Tarif Bleu.</cbc:Note>
+  <cbc:TaxPointDate>2018-09-07</cbc:TaxPointDate>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+  <cbc:PaymentCurrencyCode>EUR</cbc:PaymentCurrencyCode>
+  <cbc:LineCountNumeric>24</cbc:LineCountNumeric>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2019-03-07</cbc:StartDate>
+    <cbc:Description>Date prochaine facture</cbc:Description>
+  </cac:InvoicePeriod>
+  <cac:BillingReference>
+    <cac:AdditionalDocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+      <cbc:UUID>196721507600174</cbc:UUID>
+      <cbc:IssueDate>1977-11-02</cbc:IssueDate>
+      <cbc:DocumentTypeCode>SI_2361</cbc:DocumentTypeCode>
+      <cbc:DocumentType>Tarif Bleu pour clients non résidentiels  Option Base 3kVA - Prix réglementés</cbc:DocumentType>
+    </cac:AdditionalDocumentReference>
+  </cac:BillingReference>
+  <cac:ContractDocumentReference>
+    <cbc:ID>9303465450</cbc:ID>
+    <cbc:DocumentTypeCode listID="EDF S.A.">Compte facturation</cbc:DocumentTypeCode>
+  </cac:ContractDocumentReference>
+  <cac:ContractDocumentReference>
+    <cbc:ID>1-41DL-1357</cbc:ID>
+    <cbc:DocumentTypeCode listID="EDF S.A.">Compte commercial</cbc:DocumentTypeCode>
+  </cac:ContractDocumentReference>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>4004033675</cbc:CustomerAssignedAccountID>
+    <cac:Party>
+      <cbc:WebsiteURI>www.edfcollectivites.fr</cbc:WebsiteURI>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="SIRET">55208131766522</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>EDF Collectivités</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyName>
+        <cbc:Name>Direction Commerciale Régionale</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone>69461</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>TSA  10020</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>69461 LYON CEDEX 06</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>FR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID schemeName="NUM TVA INTRA-COMMUNAUTAIRE">FR03552081317</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:TaxTypeCode>TVA DEBIT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>EDF S.A.</cbc:RegistrationName>
+        <cbc:CompanyID>PARIS 552 081 317</cbc:CompanyID>
+        <cac:RegistrationAddress>
+          <cbc:CityName>Paris</cbc:CityName>
+          <cbc:PostalZone>75382 Paris Cedex 08</cbc:PostalZone>
+          <cac:AddressLine>
+            <cbc:Line>22-30 avenue de Wagram</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>75382</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>Paris Cedex 08</cbc:Line>
+          </cac:AddressLine>
+          <cac:AddressLine>
+            <cbc:Line>France</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>FR</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+        <cac:CorporateRegistrationScheme>
+          <cbc:ID>1463719402</cbc:ID>
+        </cac:CorporateRegistrationScheme>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+    <cac:AccountingContact>
+      <cbc:Name>RC Groupements</cbc:Name>
+      <cbc:Telephone>04 26 70 37 22</cbc:Telephone>
+      <cbc:ElectronicMail>edf-raa-41@edf.fr</cbc:ElectronicMail>
+      <cbc:Note>Du lundi au vendredi de 8h à 18h. Service gratuit + Prix d'appel</cbc:Note>
+    </cac:AccountingContact>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cbc:CustomerAssignedAccountID>3770006140013</cbc:CustomerAssignedAccountID>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>CRISTAL HABITAT</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone>73000</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>1 PLACE DU FORUM</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>73000 CHAMBERY</cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>FR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cbc:ID>3625143996</cbc:ID>
+    <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    <cac:DeliveryLocation>
+      <cbc:Description>SYNDIC CHAUFFERIE</cbc:Description>
+      <cac:Address>
+        <cbc:PostalZone>73000</cbc:PostalZone>
+        <cac:AddressLine>
+          <cbc:Line>44 RUE HENRI COMMANDEUR</cbc:Line>
+        </cac:AddressLine>
+        <cac:AddressLine>
+          <cbc:Line>73000 CHAMBERY </cbc:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:IdentificationCode>FR</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+    <cac:EstimatedDeliveryPeriod>
+      <cbc:StartDate>2018-10-06</cbc:StartDate>
+    </cac:EstimatedDeliveryPeriod>
+    <cac:DeliveryParty>
+      <cbc:EndpointID>19690303870106</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="Puissance Souscrite">3.0</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="SystemeInformationOR">DISCO</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="Numéro compteur">646</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="Coefficient de lecture">100</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="Type Compteur">CCB</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="TypePDS">ELEC</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="TarifAcheminement">Tarif BT inf 36kVA Courte Utilisation sans différenciation temporelle</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:Contact>
+        <cbc:Name>Depannage</cbc:Name>
+        <cbc:Telephone>0 972 675 073</cbc:Telephone>
+        <cbc:Note>Service gratuit + Prix d'appel</cbc:Note>
+        <cac:OtherCommunication>
+          <cbc:Channel>OperateurReseau</cbc:Channel>
+          <cbc:Value>Enedis</cbc:Value>
+        </cac:OtherCommunication>
+      </cac:Contact>
+    </cac:DeliveryParty>
+  </cac:Delivery>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode listAgencyName="Northern European Subset" listAgencyID="NES" listID="UN/ECE 4461 Subset" name="Prelevement automatique">49</cbc:PaymentMeansCode>
+    <cbc:PaymentDueDate>2018-09-24</cbc:PaymentDueDate>
+    <cbc:PaymentChannelCode>IBAN</cbc:PaymentChannelCode>
+    <cbc:InstructionNote languageID="fr-FR">A défaut de paiement à la date prévue, le montant TTC dû sera majoré de pénalités pour retard au taux annuel de 8,00 % et d'une indemnité pour frais de recouvrement par facture de 40,00 €.</cbc:InstructionNote>
+    <cac:PayerFinancialAccount>
+      <cbc:ID>FRXXXXXXXXXXXX84485002214XX</cbc:ID>
+    </cac:PayerFinancialAccount>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>FRXXXXXXXXXXXX84485002214XX</cbc:ID>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:Note>Direct debit</cbc:Note>
+    <cbc:Note>TVA payée sur débits</cbc:Note>
+    <cbc:Note>Aucun escompte n'est accordé pour paiement anticipé</cbc:Note>
+    <cbc:Note>Paiement par prélèvement automatique : Vous serez prélevé d'un montant de : 182.73€ à partir du : 24/09/2018 sur le compte bancaire : FR ** ***** ***** 84485002214 **</cbc:Note>
+    <cbc:Amount currencyID="EUR">182.73</cbc:Amount>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">23.30</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">59.21</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">3.26</cbc:TaxAmount>
+      <cbc:Percent>5.50</cbc:Percent>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:Name>TVA à 5,50%</cbc:Name>
+          <cbc:TaxTypeCode>TVA</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">100.22</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">20.04</cbc:TaxAmount>
+      <cbc:Percent>20.00</cbc:Percent>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:Name>TVA à 20,00%</cbc:Name>
+          <cbc:TaxTypeCode>TVA</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:TaxExclusiveAmount currencyID="EUR">159.43</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">182.73</cbc:TaxInclusiveAmount>
+    <cbc:PrepaidAmount currencyID="EUR">0.00</cbc:PrepaidAmount>
+    <cbc:PayableAmount currencyID="EUR">182.73</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">822.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Total consommations facturées</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="737" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549352306042</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Sept 17</cbc:Name>
+        <cbc:Value>17</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Oct 17</cbc:Name>
+        <cbc:Value>149</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Nov 17</cbc:Name>
+        <cbc:Value>320</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Déc 17</cbc:Name>
+        <cbc:Value>397</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Jan 18</cbc:Name>
+        <cbc:Value>416</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Fév 18</cbc:Name>
+        <cbc:Value>412</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Mar 18</cbc:Name>
+        <cbc:Value>385</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Avr 18</cbc:Name>
+        <cbc:Value>398</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Mai 18</cbc:Name>
+        <cbc:Value>232</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Juin 18</cbc:Name>
+        <cbc:Value>141</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Juil 18</cbc:Name>
+        <cbc:Value>16</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Aou 18</cbc:Name>
+        <cbc:Value>18</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>Sept 18</cbc:Name>
+        <cbc:Value>17</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>2</cbc:ID>
+          <cbc:Name>RELEVE</cbc:Name>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">53.02</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Sous-total abonnement facturé</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="761" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549351326454</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>REGROUPEMENT</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="MON">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">44.10</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Abonnement</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="508" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549350308390</cbc:ID>
+        <cbc:Name>TVA Reduite</cbc:Name>
+        <cbc:Percent>5.5</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">8.82</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-03-01</cbc:StartDate>
+          <cbc:EndDate>2018-07-31</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="MON">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">8.92</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Abonnement</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="508" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549350308390</cbc:ID>
+        <cbc:Name>TVA Reduite</cbc:Name>
+        <cbc:Percent>5.5</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">8.92</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-08-01</cbc:StartDate>
+          <cbc:EndDate>2018-08-31</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">822.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">74.16</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Sous-total consommation facturée</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="760" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549351326447</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>REGROUPEMENT</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>6</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">802.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">72.34</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Période unique</cbc:Description>
+      <cbc:Name>Electricité</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="611" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549350300387</cbc:ID>
+        <cbc:Name>TVA Normale</cbc:Name>
+        <cbc:Percent>20</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">9.02</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-03-06</cbc:StartDate>
+          <cbc:EndDate>2018-07-31</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>7</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">20.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1.82</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Période unique</cbc:Description>
+      <cbc:Name>Electricité</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="611" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549350300387</cbc:ID>
+        <cbc:Name>TVA Normale</cbc:Name>
+        <cbc:Percent>20</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">9.08</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-08-01</cbc:StartDate>
+          <cbc:EndDate>2018-09-05</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>8</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">22.90</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Part fixe de l'acheminement versé par EDF au gestionnaire de réseau</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="736" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549352107724</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>9</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">30.16</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Part variable de l'acheminement versé par EDF au gestionnaire de réseau</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="736" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549352107731</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>10</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">822.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">18.50</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Contribution au Service Public de l'Electricité</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="625" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_54">3549350326530</cbc:ID>
+        <cbc:Name>TVA Normale</cbc:Name>
+        <cbc:Percent>20</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">2.25</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-03-06</cbc:StartDate>
+          <cbc:EndDate>2018-09-05</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>11</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">822.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">2.62</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Taxe Départementale sur la Conso Finale Electricité</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="625" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_54">3549350326493</cbc:ID>
+        <cbc:Name>TVA Normale</cbc:Name>
+        <cbc:Percent>20</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0.319</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-03-06</cbc:StartDate>
+          <cbc:EndDate>2018-09-05</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>12</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="KWH">822.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4.94</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Taxe Communale sur la Conso Finale Electricité</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="625" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_54">3549350326509</cbc:ID>
+        <cbc:Name>TVA Normale</cbc:Name>
+        <cbc:Percent>20</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0.60</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+    <cac:DeliveryTerms>
+      <cac:DeliveryLocation>
+        <cac:ValidityPeriod>
+          <cbc:StartDate>2018-03-06</cbc:StartDate>
+          <cbc:EndDate>2018-09-05</cbc:EndDate>
+        </cac:ValidityPeriod>
+      </cac:DeliveryLocation>
+    </cac:DeliveryTerms>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>13</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">6.19</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Contribution Tarifaire d'Acheminement</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="694" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_54">3001000002466</cbc:ID>
+        <cbc:Name>TVA Reduite</cbc:Name>
+        <cbc:Percent>5.5</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">27.04</cbc:PriceAmount>
+      <cbc:BaseQuantity>22.90</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>14</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Base</cbc:Description>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="668" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_20">3549352114982</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/03/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_DEBUT_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/04/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_FIN_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>1.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TYPE_MESURE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2121.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DEBUT</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2519.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_FIN</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>398.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DIFF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>15</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Base</cbc:Description>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="668" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_20">3549352114982</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/04/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_DEBUT_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/05/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_FIN_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>1.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TYPE_MESURE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2519.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DEBUT</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2751.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_FIN</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>232.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DIFF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>16</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Base</cbc:Description>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="668" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_20">3549352114982</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/05/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_DEBUT_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/06/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_FIN_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>1.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TYPE_MESURE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2751.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DEBUT</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2892.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_FIN</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>141.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DIFF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>17</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Base</cbc:Description>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="668" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_20">3549352114982</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/06/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_DEBUT_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/07/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_FIN_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>1.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TYPE_MESURE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2892.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DEBUT</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2908.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_FIN</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>16.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DIFF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>18</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Base</cbc:Description>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="668" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_20">3549352114982</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/07/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_DEBUT_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/08/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_FIN_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>1.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TYPE_MESURE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2908.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DEBUT</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2926.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_FIN</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>18.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DIFF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>19</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Description languageID="fr-FR">Base</cbc:Description>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="668" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_20">3549352114982</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/08/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_DEBUT_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>06/09/2018</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>DATE_FIN_RELEVE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>1.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TYPE_MESURE</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2926.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DEBUT</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>2943.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_FIN</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>17.00</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>INDEX_DIFF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>20</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Total Service</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="712" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_98">3549351327444</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>REGROUPEMENT</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>21</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>E-Services (Espace client, Bilan annuel)</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="520" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_4">3549352326415</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>ValeurGenerique</cbc:Name>
+        <cbc:Value>INCLUS</cbc:Value>
+        <cac:ItemPropertyGroup>
+          <cbc:ID>TARIF</cbc:ID>
+        </cac:ItemPropertyGroup>
+      </cac:AdditionalItemProperty>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>INFORMATION</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>22</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>true</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>Total HTVA pour le site</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="606" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_97">3549351311528</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>REGROUPEMENT</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">1</cbc:PriceAmount>
+      <cbc:BaseQuantity>159.43</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>23</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">3.26</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>TVA à 5,50%</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="608" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_97">3549350311505</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">5.50</cbc:PriceAmount>
+      <cbc:BaseQuantity>59.21</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>24</cbc:ID>
+    <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">20.04</cbc:LineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DocumentReference>
+      <cbc:ID>1-8IN-2779</cbc:ID>
+    </cac:DocumentReference>
+    <cac:Delivery>
+      <cbc:ID>3625143996</cbc:ID>
+      <cbc:TrackingID>1-8IN-2779</cbc:TrackingID>
+    </cac:Delivery>
+    <cac:Item>
+      <cbc:Name>TVA à 20,00%</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeName="608" schemeAgencyID="EAN" schemeID="EN" schemeVersionID="4_97">3549350320514</cbc:ID>
+        <cac:TaxScheme>
+          <cbc:ID></cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+      <cac:AdditionalItemProperty>
+        <cbc:Name>TYPE_LIGNE</cbc:Name>
+        <cbc:Value>DETAIL</cbc:Value>
+      </cac:AdditionalItemProperty>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">20.00</cbc:PriceAmount>
+      <cbc:BaseQuantity>100.22</cbc:BaseQuantity>
+      <cbc:OrderableUnitFactorRate>0.01</cbc:OrderableUnitFactorRate>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

@@ -34,6 +34,7 @@ class Application(object):
 
     :param argv: The command line as a list as ``sys.argv``
     """
+
     def __init__(self, argv):
         # FIXME: Customize your command
         ap = argparse.ArgumentParser()

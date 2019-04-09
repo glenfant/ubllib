@@ -5,6 +5,8 @@ ubllib.namespaces
 
 XML namespaces and associated utilities
 """
+import functools
+from lxml import etree
 
 INVOICE_NS = "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
 
@@ -33,3 +35,6 @@ def clark_tag(prefixed_tag: str) -> str:
     else:
         prefix, tag = splitted
     return "{" + prefix_ns_map[prefix] + "}" + tag
+
+
+UblXpath = functools.partial(etree.XPath, namespaces=prefix_ns_map)

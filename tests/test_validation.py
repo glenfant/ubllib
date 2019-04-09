@@ -1,3 +1,4 @@
+from io import BytesIO
 import pathlib
 from lxml import etree
 import pytest
@@ -19,3 +20,19 @@ def test_invoice_validation(invoice_path):
 
     # We validate
     assert validate(tree)
+    assert validate(tree, raise_=True)
+
+
+def test_invoice_invalidation():
+    fake_invoice_xml = b"""
+    <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+    </Invoice>
+    """
+    tree = etree.parse(BytesIO(fake_invoice_xml))
+    assert not validate(tree)
+
+
+def test_validate_not_ubl():
+    not_ubl_xml = b"""<a>anything</a>"""
+    tree = etree.parse(BytesIO(not_ubl_xml))
+    assert not validate(tree)

@@ -6,7 +6,7 @@ ubllib.validation
 Validates xml data against schema
 """
 from functools import lru_cache
-import pathlib
+import typing as t
 import warnings
 
 from lxml import etree
@@ -44,22 +44,29 @@ def validate(tree: etree._ElementTree, raise_: bool = False) -> bool:
 
     root = tree.getroot()
     schema = get_schema(root.tag)
+    if schema is None:
+        if raise_:
+            raise KeyError(f"No schema available for root tree {root.tag}")
+        return False
     if raise_:
         schema.assertValid(tree)
+        return True
     return schema.validate(tree)
 
 
 @lru_cache(maxsize=4)
-def get_schema(tag: str) -> etree.XMLSchema:
+def get_schema(tag: str) -> t.Optional[etree.XMLSchema]:
     """Gets and caches the validation schema for a root element
 
     Args:
         tag: The tag of the root element (clark form)
 
     Returns:
-        A parsed XSD schema
+        A parsed XSD schema or None if not found
     """
-    schema_path = tag_schemas_2_1[tag]
+    schema_path = tag_schemas_2_1.get(tag)
+    if schema_path is None:
+        return None
     with open(schema_path, "rb") as stream:
         schema = etree.XMLSchema(file=stream)
     return schema

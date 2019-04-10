@@ -5,18 +5,20 @@ ubllib.validation
 
 Validates xml data against schema
 """
-from functools import lru_cache
 import typing as t
 import warnings
+from functools import lru_cache
 
 from lxml import etree
 
 from . import package_directory
-from .namespaces import clark_tag, prefix_ns_map
+from .namespaces import clark_tag, UBLXpath
 
 schema_2_1_main = package_directory / "schemas_2_1" / "maindoc"
 
 tag_schemas_2_1 = {clark_tag("inv:Invoice"): schema_2_1_main / "UBL-Invoice-2.1.xsd"}
+
+ubl_version_finder_xp = UBLXpath("//cbc:UBLVersionID")
 
 
 def validate(tree: etree._ElementTree, raise_: bool = False) -> bool:
@@ -33,7 +35,7 @@ def validate(tree: etree._ElementTree, raise_: bool = False) -> bool:
         Validation failure - see https://lxml.de/validation.html#xmlschema
     """
     # We find the appropriate XSD file
-    ubl_version = tree.xpath("//cbc:UBLVersionID", namespaces=prefix_ns_map)
+    ubl_version = ubl_version_finder_xp(tree)
     if len(ubl_version) > 0:
         ubl_version = ubl_version[0].text.strip()
     else:

@@ -36,5 +36,5 @@ def clark_tag(prefixed_tag: str) -> str:
         prefix, tag = splitted
     return "{" + prefix_ns_map[prefix] + "}" + tag
 
-
-UblXpath = functools.partial(etree.XPath, namespaces=prefix_ns_map)
+# An XPath object that understands usual UBL prefixes
+UBLXpath = functools.partial(etree.XPath, namespaces=prefix_ns_map)

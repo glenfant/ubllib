@@ -1,11 +1,10 @@
 from io import BytesIO
-import pathlib
-from lxml import etree
+
 import pytest
+from lxml import etree
 
 from ubllib.validation import validate
-
-this_directory = pathlib.Path(__file__).resolve().parent
+from . import this_directory
 
 all_invoice_files = tuple((this_directory / "data" / "invoices").glob("*.xml"))
 

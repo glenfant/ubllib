@@ -24,6 +24,8 @@ prefix_namespaces = (
 
 prefix_ns_map = dict(prefix_namespaces)
 
+ns_prefix_map = {ns: prefix for prefix, ns in prefix_namespaces}
+
 
 def clark_tag(prefixed_tag: str) -> str:
     """Makes a clark notation tag from a prefixed tag.
